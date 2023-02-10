@@ -108,6 +108,8 @@ def train_net(data, model, loss_func, optimizer, batch_size, max_epochs,
     - lr_decay_every: Decay the learning rate every given epochs
     - show_every: Show the training information every given iterations
     - verbose: To show the information or not
+    - regularization: Which regularization method to use: "l1", "l2". Default: "none"
+    - reg_lambda: paramter that controls the strength of regularization. Decault: 0.0
 
     Returns:
     - opt_params: optimal parameters
