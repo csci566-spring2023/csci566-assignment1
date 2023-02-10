@@ -37,7 +37,7 @@ conda activate hw1
 jupyter notebook --port=your_port_number
 
 ```
-and then work on each problem with their corresponding `.ipynb` notebooks.
+You can open Jupyter on your IDE of choice, or your browser at the address `localhost:<your_post_number>` then work on each problem with their corresponding `.ipynb` notebooks.
 Check the python environment you are using on the top right corner.
 If the name of environment doesn't match, change it to your virtual environment in "Kernel>Change kernel".
 
