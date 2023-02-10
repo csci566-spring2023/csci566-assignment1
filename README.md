@@ -26,9 +26,6 @@ conda activate hw1
 
 # install dependencies
 pip3 install numpy jupyter ipykernel scipy matplotlib
-
-# work on the assignment
-conda deactivate # Exit the virtual environment
 ```
 
 ## Work with IPython Notebook
