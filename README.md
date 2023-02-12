@@ -25,7 +25,7 @@ conda create -n hw1 python=3.9 # If you didn't install it
 conda activate hw1
 
 # install dependencies
-pip3 install numpy jupyter ipykernel scipy matplotlib
+pip3 install numpy jupyter ipykernel scipy matplotlib tqdm
 ```
 
 ## Work with IPython Notebook
