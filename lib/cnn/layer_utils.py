@@ -69,9 +69,9 @@ class sequential(object):
         """
         for layer in self.layers:
             for n, v in layer.grads.items():
-                param = self.params[n]
-                grad = (param > 0).astype(np.float32) - (param < 0).astype(np.float32)
-                self.grads[n] += lam * grad
+                ########### TODO #############
+                pass
+                ########### END  #############
 
     def apply_l2_regularization(self, lam):
         """
@@ -79,7 +79,9 @@ class sequential(object):
         """
         for layer in self.layers:
             for n, v in layer.grads.items():
-                self.grads[n] += lam * self.params[n]
+                ########### TODO #############
+                pass
+                ########### END  #############
 
 
     def load(self, pretrained):
